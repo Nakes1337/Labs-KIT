@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=devise-width, initial-scale=1">
+      <title>twit</title>
+   </head>
+   <body >
+      <div class="container">
+         <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <a class="navbar-brand" href="#"> <img src="https://sun9-5.userapi.com/c854520/v854520451/110ef3/8ecnFD8iDl4.jpg" >Твиттер</a>
+               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">О нас <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+      <p><a name="top"></a></p>
+      <nav class="row" style="margin-top: 10px;">
+         <div class="col-sm-12">    
+            <img src="https://sun9-13.userapi.com/c854520/v854520451/110f07/s8uOYvCRFHQ.jpg" alt="photo 1" style="width:95%" >
+      </nav>
+      </nav>
+      </div>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-12">
+               <!-------------------------------- читаемые и тп --------------------------------> 
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-sm-4">
+                        <a href="" class="font-weight-bolder">
+                           <div class="float-right">Donald J. Trump</div>
+                        </a>
+                     </div>
+                     <div class="col-sm-4">
+                        <div class="row">
+                           <div style="margin-left:10px;">
+                              <a href="" style="margin-left:10px;">   Твиты </a> <br>
+                              <a href="" >     59,9 тыс    </a> 
+                           </div>
+                           <div style="margin-left:10px;">
+                              <a href="">    Читаемые </a> <br>   
+                              <a href="" style="margin-left:30px;">     47    </a> 
+                           </div>
+                           <div style="margin-left:10px;">
+                              <a href="">   Нравится  </a> <br>
+                              <a href="" style="margin-left:30px">    8   </a>
+                           </div>
+                           <div style="margin-left:10px;">
+                              <a href="">   Моменты </a>  <br>
+                              <a href="" style="margin-left:30px">    7  </a> 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-4">
+                        <button type="button" class="btn btn-outline-primary" >
+                           <div class="float-right">Читать </div>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-sm-3" > 
+                        <br>
+                        <a href="">@realDonaldTrump</a><br>
+                        <b style="margin-top: 10px;">45th President of the United States of America🇺🇸</b>
+                        Washington, DC<br>
+                        <a href="">Instagram.com/realDonaldTrump</a><br>
+                        Дата регистрации: март 2009 г.
+                        <a href="">Фото и видео</a>
+                     </div>
+                     <!------------------------------ лента с новостям --------------------------------->
+                     <div class="col-sm-6">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                           <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                           </ol>
+                           <div class="carousel-inner" role="listbox">
+                              <div class="carousel-item active">
+                                 <img class="d-block w-100" src="https://sun9-43.userapi.com/c854520/v854520451/110f15/Qu9Wy4ydQrc.jpg" data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true" style="width: 100%; height: 100%;">
+                              </div>
+                              <div class="carousel-item">
+                                 <img class="d-block w-100" src="https://sun9-35.userapi.com/c854520/v854520451/110f1c/bqGC8jIXcbQ.jpg" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" style="width: 100%; height: 100%;">
+                              </div>
+                           </div>
+                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Next</span>
+                           </a>
+                        </div>
+                        <br>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">100 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg">  5345 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 54</a> 
+                        </div>
+                        <br>
+                        <div class="d-flex flex-sm-column">
+                           <div class="card">
+                              <img class="card-img" src="https://sun9-15.userapi.com/c854520/v854520451/110f0e/3zGcyFMgZY0.jpg" alt="Card image">
+                              <div class="card-img-overlay">
+                                 <p class="card-text"></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">100 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg">  5345 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 54</a> 
+                        </div>
+                        <p class="card-text">Will be a GREAT and very accurate show tonight by @seanhannity on @foxnews (9:00 PM). Will play my full statement from Air Force One!</p>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">100  </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg">  345 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 5424</a> 
+                        </div>
+                        <div class="card">
+                           <img class="card-img" src="https://sun9-35.userapi.com/c854520/v854520451/110f1c/bqGC8jIXcbQ.jpg" alt="Card image">
+                           <div class="card-img-overlay">
+                              <p class="card-text"></p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">5646  </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg"> 25424 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 3542</a> 
+                        </div>
+                        <div class="card">
+                           <img class="card-img" src="https://sun9-43.userapi.com/c854520/v854520451/110f15/Qu9Wy4ydQrc.jpg" alt="Card image">
+                           <div class="card-img-overlay">
+                              <p class="card-text"></p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">3453  </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg"> 525425 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 452</a> 
+                        </div>
+                        <div class="card">
+                           <img class="card-img" src="https://sun9-35.userapi.com/c854520/v854520451/110f1c/bqGC8jIXcbQ.jpg" alt="Card image">
+                           <div class="card-img-overlay">
+                              <p class="card-text"></p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <a href=""><img src="https://sun9-3.userapi.com/c854520/v854520451/110f54/SIw5Pzpx78Q.jpg" alt="" style="margin-right:15px;margin-left: 15px;">154  </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-42.userapi.com/c854520/v854520451/110f62/kaFc8CT9ovs.jpg"> 25424 </a> <a href=""><img style="margin-right:15px;margin-left: 15px;" src="https://sun9-34.userapi.com/c854520/v854520451/110f5b/547cmFBZN6Q.jpg"> 3542</a> 
+                        </div>
+                     </div>
+                     <div class="col-sm-3" >
+                        <!-------------------------------- лента справа-------------------------------->
+                        <a href="">
+                           <div class="d-flex flex-sm-column">
+                              <div class="card">
+                                 <img class="card-img" src="https://sun9-14.userapi.com/c854520/v854520451/110f23/j9OOnKDM6c4.jpg" alt="Card image">
+                                 <div class="card-img-overlay">
+                                    <p class="card-text"></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                        <div  >
+                           <br><br>
+                           <b> Вам может также понравиться</b>
+                           <br><br>
+                           <a href="" style="padding: 18px 15px 0 0;"> <img src="https://sun9-71.userapi.com/c858336/v858336067/9d51f/jF2LN0X9ETY.jpg"> Trump</a><br>
+                           <br>
+                           <a href=""><img src="https://sun9-44.userapi.com/c858336/v858336067/9d526/pm5Blz2Bn5A.jpg"> Obama</a><br>
+                           <br>
+                           <a href=""><img src="https://sun9-10.userapi.com/c858336/v858336067/9d52d/Zmn6yLYkWF8.jpg">Hillary Clinton</a><br>
+                           <br>
+                           <a href=""><img src="https://sun9-52.userapi.com/c858336/v858336067/9d534/Qga3lohGS-Q.jpg">The White House</a><br>
+                           <br>
+                           <a href=""><img src="https://sun9-24.userapi.com/c858336/v858336067/9d53b/Hmjrnz5IbpQ.jpg">Melania Trump</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ------------------------------ нижняя часть страницы -------------------------------->
+      <div class="container">
+         <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-5">
+            </div>
+            <div class="col-3">
+               <p><a href="#top" > Наверх! </a></p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
